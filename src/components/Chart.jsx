@@ -8,7 +8,7 @@ import AmountGrid from './AmountGrid'
 
 const Chart = () => {
   return (
-    <div className='flex flex-col bg-white gap-5 mt-8 ml-6 mr-6 rounded'>
+    <div className='flex flex-col bg-white gap-5 mt-8 ml-6 mr-6 h-full rounded'>
         <div className='flex justify-between'>
             <div>
                 <SearchBar2 />
