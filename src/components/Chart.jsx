@@ -13,8 +13,8 @@ const Chart = () => {
             <div>
                 <SearchBar2 />
             </div>
-            <div className='flex gap-4 mt-8 mr-6'>
-                <div class="grid grid-flow-col items-center gap-2 h-9 pl-3.5 pr-3.5 rounded border border-gray-300">
+            <div className='flex gap-1 sm:mt-8 mt-9 sm:ml-0 ml-2 mr-6'>
+                <div class="grid grid-flow-col items-center gap-4 h-9 pl-3.5 pr-3.5 rounded border border-gray-300">
                     <p>Sort</p>
                     <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.624959 7.93424C0.833239 7.72596 1.17093 7.72596 1.37921 7.93424L3.64295 10.198L5.90669 7.93424C6.11497 7.72596 6.45266 7.72596 6.66094 7.93424C6.86922 8.14252 6.86922 8.48021 6.66094 8.68849L4.02007 11.3294C3.81179 11.5376 3.47411 11.5376 3.26583 11.3294L0.624959 8.68849C0.41668 8.48021 0.41668 8.14252 0.624959 7.93424Z" fill="#4D4D4D">
@@ -35,10 +35,10 @@ const Chart = () => {
                                             </div>
             </div>
         </div>
-        <div className='flex justify-around gap-6 font-medium'>
+        <div className='flex sm:justify-around justify-around gap-2 sm:ml-0 ml-6 sm:text-normal text-xs font-medium'>
             <div>ORDER ID</div>
-            <div>STATUS</div>
-            <div>TRANSACTION ID</div>
+            <div className='pl-5'>STATUS</div>
+            <div className='sm:pl-0 pl-6'>TRANSACTION ID</div>
             <div>REFUND DATE</div>
             <div>ORDER AMOUNT</div>
         </div>

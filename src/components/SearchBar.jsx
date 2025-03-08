@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchBar = () => {
   return (
-    <div class="flex items-center bg-gray-100 rounded-lg h-10 p-3 mr-28 mt-3 w-96">
+    <div class="flex items-center bg-gray-100 rounded-lg h-10 p-3 sm:mr-28 mr-23 mt-3 sm:w-96 w-45">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
     stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-400">
     <path stroke-linecap="round" stroke-linejoin="round" 

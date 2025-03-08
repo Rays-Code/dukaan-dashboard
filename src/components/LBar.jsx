@@ -2,7 +2,7 @@ import React from 'react'
 
 const LBar = () => {
   return (
-    <div className='flex flex-col fixed justify-between text-white w-56 bg-blue-900 h-full'>
+    <div className='hidden sm:flex flex-col fixed justify-between text-white w-56 bg-blue-900 h-full'>
         <div className='flex flex-col gap-6 p-6'>
         <div className='flex gap-2 items-center'>
             <div className='w-10'><img className='rounded' src='./avatar.png'/></div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const RevenueCard = ({title, orderCount, amount}) => {
   return (
-    <div className='bg-white h-30 w-98 rounded shadow-md p-5'>
+    <div className='bg-white h-30 sm:w-98 w-154 rounded shadow-md p-5'>
         <div className='flex items-center text-gray-700'>
             {title}     
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const PayoutCard = ({title, orderCount, amount}) => {
   return (
-<div class="bg-blue-500 text-white w-98 h-35 flex flex-col justify-between rounded shadow-lg">
+<div class="bg-blue-500 text-white sm:w-98 w-154 h-35 flex flex-col justify-between rounded shadow-lg">
     <div className='flex flex-col justify-center'> 
         <div className='flex pl-5 pt-4'>
             Next payout
@@ -21,9 +21,9 @@ const PayoutCard = ({title, orderCount, amount}) => {
         </div>
     </div> 
     
-    <div class="flex justify-around rounded bg-blue-700 w-98 py-2">
-        <div className='pr-15'>Next payout date:</div>
-        <div>Today, 04:00 PM</div>
+    <div class="flex sm:justify-around justify-between rounded bg-blue-700 sm:w-98 w-154 py-2">
+        <div className='pr-15 sm:pl-0 pl-5'>Next payout date:</div>
+        <div className='sm:pr-0 pr-6'>Today, 04:00 PM</div>
     </div>
 </div>
 
