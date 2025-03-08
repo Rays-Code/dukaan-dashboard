@@ -4,6 +4,7 @@ import PayoutCard from './PayoutCard'
 import Navbar from './Navbar'
 import Overview from './Overview'
 import Chart from './Chart'
+import Signature from './Signature'
 
 const RBar = () => {
   return (
@@ -31,6 +32,8 @@ const RBar = () => {
     </div>
 
     <Chart />
+
+    <Signature />
 
 
     </div>

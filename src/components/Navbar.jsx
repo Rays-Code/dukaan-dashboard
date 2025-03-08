@@ -3,7 +3,7 @@ import SearchBar from './SearchBar'
 
 const Navbar = () => {
   return (
-    <div className='flex bg-white sm:justify-between justify-between gap-3 border-b border-gray-300 sm:w-full w-160 h-33'>
+    <div className='flex bg-white sm:justify-between justify-between gap-3 border-b border-gray-300 sm:w-full w-160 sm:h-33'>
         <div className='flex'>
             <div className='text-xl font-medium pt-5 pl-8'>Payouts</div>
             <div className='flex pt-5 ml-4'>
